@@ -1,0 +1,12 @@
+#Wed Mar 23 15:13:06 IST 2016
+eclipse.m2.defaultPomEditorPage=true
+eclipse.m2.downloadSources=true
+eclipse.m2.offline=false
+eclipse.m2.updateIndexes=false
+eclipse.m2.userSettingsFile=${client.env.home}/conf/.m2/settings.xml
+eclipse.preferences.version=1
+eclipse.m2.WorkspacelifecycleMappingsLocation=${client.env.home}/workspaces/main/development/settings/eclipse/lifecycle-mapping-metadata.xml
+eclipse.m2.runtimes=External maven
+eclipse.m2.runtimesNodes/External\ maven/location=${client.env.home}/software/maven
+eclipse.m2.runtimesNodes/External\ maven/type=EXTERNAL
+eclipse.m2.defaultRuntime=External maven

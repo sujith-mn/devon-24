@@ -1,0 +1,307 @@
+28-May-2018 11:54:47.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.31
+28-May-2018 11:54:47.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 27 2018 20:24:25 UTC
+28-May-2018 11:54:47.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.31.0
+28-May-2018 11:54:47.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-May-2018 11:54:47.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-May-2018 11:54:47.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-May-2018 11:54:47.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\java\jre
+28-May-2018 11:54:47.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_172-b11
+28-May-2018 11:54:47.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-May-2018 11:54:47.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat
+28-May-2018 11:54:47.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat
+28-May-2018 11:54:47.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\conf\logging.properties
+28-May-2018 11:54:47.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-May-2018 11:54:47.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-May-2018 11:54:47.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-May-2018 11:54:47.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-May-2018 11:54:47.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat
+28-May-2018 11:54:47.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat
+28-May-2018 11:54:47.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\temp
+28-May-2018 11:54:47.317 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\cmder\bin;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\cmder\vendor\conemu-maximus5\ConEmu\Scripts;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\cmder\vendor\conemu-maximus5;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\cmder\vendor\conemu-maximus5\ConEmu;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\vscode\bin;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\bin;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\subversion;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\sonarqube\bin;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\Sencha;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\python3;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\nodejs;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\maven\bin;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\logs;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\java\bin;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\jasypt\bin;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\eclipse;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\devcon;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\cmder\bin;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\ant\bin;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\Sencha\Cmd\default;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\oracle\app\oracle\product\11.2.0\server\bin;;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\CapgeminiScripts\Support Tools\;C:\Program Files\Cloud Foundry;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_121\bin;D:\Devon\Devon-dist_2.2.0\software\maven\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\vapadwal\AppData\Roaming\npm;C:\Users\vapadwal\AppData\Local\Microsoft\WindowsApps;;C:\Users\vapadwal\.devcon;C:\Program Files\Microsoft VS Code\bin;D:\Devon\Microsoft VS Code\bin;C:\Users\vapadwal\AppData\Local\Gpg4win\..\GnuPG\bin;C:\Users\vapadwal\AppData\Roaming\npm;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\cmder\;.]
+28-May-2018 11:54:47.567 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-May-2018 11:54:47.878 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-May-2018 11:54:47.902 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-May-2018 11:54:47.909 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-May-2018 11:54:47.919 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1248 ms
+28-May-2018 11:54:47.975 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-May-2018 11:54:47.977 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.31
+28-May-2018 11:54:48.012 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\docs]
+28-May-2018 11:54:48.736 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\docs] has finished in [721] ms
+28-May-2018 11:54:48.737 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\examples]
+28-May-2018 11:54:49.855 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\examples] has finished in [1,118] ms
+28-May-2018 11:54:49.855 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\host-manager]
+28-May-2018 11:54:49.948 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\host-manager] has finished in [93] ms
+28-May-2018 11:54:49.948 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\manager]
+28-May-2018 11:54:50.011 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\manager] has finished in [63] ms
+28-May-2018 11:54:50.011 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\ROOT]
+28-May-2018 11:54:50.073 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\ROOT] has finished in [62] ms
+28-May-2018 11:54:50.073 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-May-2018 11:54:50.105 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-May-2018 11:54:50.105 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2198 ms
+28-May-2018 11:54:50.151 SEVERE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:440)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:769)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:715)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+28-May-2018 11:54:50.151 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-May-2018 11:54:50.339 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-May-2018 11:54:50.511 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-May-2018 11:54:50.527 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-May-2018 11:54:50.542 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+28-May-2018 11:54:50.542 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-May-2018 11:54:50.542 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+28-May-2018 11:57:34.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.31
+28-May-2018 11:57:34.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 27 2018 20:24:25 UTC
+28-May-2018 11:57:34.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.31.0
+28-May-2018 11:57:34.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-May-2018 11:57:34.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-May-2018 11:57:34.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-May-2018 11:57:34.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_121\jre
+28-May-2018 11:57:34.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+28-May-2018 11:57:34.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-May-2018 11:57:34.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat
+28-May-2018 11:57:34.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat
+28-May-2018 11:57:34.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\conf\logging.properties
+28-May-2018 11:57:34.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-May-2018 11:57:34.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-May-2018 11:57:34.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-May-2018 11:57:34.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-May-2018 11:57:34.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat
+28-May-2018 11:57:34.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat
+28-May-2018 11:57:34.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\temp
+28-May-2018 11:57:34.075 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\oracle\app\oracle\product\11.2.0\server\bin;;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\CapgeminiScripts\Support Tools\;C:\Program Files\Cloud Foundry;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_121\bin;D:\Devon\Devon-dist_2.2.0\software\maven\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\vapadwal\AppData\Roaming\npm;C:\Users\vapadwal\AppData\Local\Microsoft\WindowsApps;;C:\Users\vapadwal\.devcon;C:\Program Files\Microsoft VS Code\bin;D:\Devon\Microsoft VS Code\bin;C:\Users\vapadwal\AppData\Local\Gpg4win\..\GnuPG\bin;.]
+28-May-2018 11:57:34.293 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-May-2018 11:57:34.544 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-May-2018 11:57:34.559 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-May-2018 11:57:34.559 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-May-2018 11:57:34.559 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1053 ms
+28-May-2018 11:57:34.590 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-May-2018 11:57:34.590 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.31
+28-May-2018 11:57:34.606 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\docs]
+28-May-2018 11:57:34.970 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\docs] has finished in [364] ms
+28-May-2018 11:57:34.970 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\examples]
+28-May-2018 11:57:35.627 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\examples] has finished in [657] ms
+28-May-2018 11:57:35.627 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\host-manager]
+28-May-2018 11:57:35.684 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\host-manager] has finished in [57] ms
+28-May-2018 11:57:35.685 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\manager]
+28-May-2018 11:57:35.718 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\manager] has finished in [33] ms
+28-May-2018 11:57:35.718 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\ROOT]
+28-May-2018 11:57:35.764 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\ROOT] has finished in [46] ms
+28-May-2018 11:57:35.764 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-May-2018 11:57:35.780 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-May-2018 11:57:35.796 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1233 ms
+28-May-2018 11:57:35.811 SEVERE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:440)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:769)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:715)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+28-May-2018 11:57:35.811 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-May-2018 11:57:35.952 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-May-2018 11:57:36.112 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-May-2018 11:57:36.166 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-May-2018 11:57:36.182 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+28-May-2018 11:57:36.182 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-May-2018 11:57:36.182 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+28-May-2018 11:59:26.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.31
+28-May-2018 11:59:26.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 27 2018 20:24:25 UTC
+28-May-2018 11:59:26.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.31.0
+28-May-2018 11:59:26.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-May-2018 11:59:26.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-May-2018 11:59:26.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-May-2018 11:59:26.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_121\jre
+28-May-2018 11:59:26.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+28-May-2018 11:59:26.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-May-2018 11:59:26.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat
+28-May-2018 11:59:26.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat
+28-May-2018 11:59:26.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\conf\logging.properties
+28-May-2018 11:59:26.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-May-2018 11:59:26.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-May-2018 11:59:26.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-May-2018 11:59:26.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-May-2018 11:59:26.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat
+28-May-2018 11:59:26.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat
+28-May-2018 11:59:26.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\temp
+28-May-2018 11:59:26.124 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\oracle\app\oracle\product\11.2.0\server\bin;;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\CapgeminiScripts\Support Tools\;C:\Program Files\Cloud Foundry;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_121\bin;D:\Devon\Devon-dist_2.2.0\software\maven\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\vapadwal\AppData\Roaming\npm;C:\Users\vapadwal\AppData\Local\Microsoft\WindowsApps;;C:\Users\vapadwal\.devcon;C:\Program Files\Microsoft VS Code\bin;D:\Devon\Microsoft VS Code\bin;C:\Users\vapadwal\AppData\Local\Gpg4win\..\GnuPG\bin;.]
+28-May-2018 11:59:26.280 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-May-2018 11:59:26.452 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-May-2018 11:59:26.467 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-May-2018 11:59:26.467 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-May-2018 11:59:26.483 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 824 ms
+28-May-2018 11:59:26.499 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-May-2018 11:59:26.499 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.31
+28-May-2018 11:59:26.514 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\docs]
+28-May-2018 11:59:26.832 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\docs] has finished in [318] ms
+28-May-2018 11:59:26.832 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\examples]
+28-May-2018 11:59:27.395 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\examples] has finished in [563] ms
+28-May-2018 11:59:27.395 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\host-manager]
+28-May-2018 11:59:27.457 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\host-manager] has finished in [62] ms
+28-May-2018 11:59:27.457 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\manager]
+28-May-2018 11:59:27.535 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\manager] has finished in [78] ms
+28-May-2018 11:59:27.535 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\ROOT]
+28-May-2018 11:59:27.582 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\ROOT] has finished in [47] ms
+28-May-2018 11:59:27.582 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-May-2018 11:59:27.598 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-May-2018 11:59:27.598 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1127 ms
+28-May-2018 11:59:27.614 SEVERE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:440)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:769)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:715)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+28-May-2018 11:59:27.614 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-May-2018 11:59:27.750 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-May-2018 11:59:27.906 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-May-2018 11:59:27.938 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-May-2018 11:59:27.938 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+28-May-2018 11:59:27.938 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-May-2018 11:59:27.953 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+28-May-2018 11:59:41.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.31
+28-May-2018 11:59:41.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 27 2018 20:24:25 UTC
+28-May-2018 11:59:41.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.31.0
+28-May-2018 11:59:41.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-May-2018 11:59:41.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-May-2018 11:59:41.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-May-2018 11:59:41.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\java\jre
+28-May-2018 11:59:41.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_172-b11
+28-May-2018 11:59:41.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-May-2018 11:59:41.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat
+28-May-2018 11:59:41.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat
+28-May-2018 11:59:41.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\conf\logging.properties
+28-May-2018 11:59:41.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-May-2018 11:59:41.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-May-2018 11:59:41.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-May-2018 11:59:41.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-May-2018 11:59:41.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat
+28-May-2018 11:59:41.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat
+28-May-2018 11:59:41.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\temp
+28-May-2018 11:59:41.755 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\cmder\bin;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\cmder\vendor\conemu-maximus5\ConEmu\Scripts;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\cmder\vendor\conemu-maximus5;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\cmder\vendor\conemu-maximus5\ConEmu;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\vscode\bin;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\bin;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\subversion;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\sonarqube\bin;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\Sencha;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\python3;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\nodejs;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\maven\bin;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\logs;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\java\bin;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\jasypt\bin;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\eclipse;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\devcon;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\cmder\bin;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\ant\bin;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\Sencha\Cmd\default;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\oracle\app\oracle\product\11.2.0\server\bin;;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\CapgeminiScripts\Support Tools\;C:\Program Files\Cloud Foundry;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_121\bin;D:\Devon\Devon-dist_2.2.0\software\maven\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\vapadwal\AppData\Roaming\npm;C:\Users\vapadwal\AppData\Local\Microsoft\WindowsApps;;C:\Users\vapadwal\.devcon;C:\Program Files\Microsoft VS Code\bin;D:\Devon\Microsoft VS Code\bin;C:\Users\vapadwal\AppData\Local\Gpg4win\..\GnuPG\bin;C:\Users\vapadwal\AppData\Roaming\npm;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\cmder\;.]
+28-May-2018 11:59:41.911 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-May-2018 11:59:42.083 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-May-2018 11:59:42.083 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-May-2018 11:59:42.099 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-May-2018 11:59:42.099 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 756 ms
+28-May-2018 11:59:42.130 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-May-2018 11:59:42.130 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.31
+28-May-2018 11:59:42.146 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\docs]
+28-May-2018 11:59:42.583 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\docs] has finished in [437] ms
+28-May-2018 11:59:42.583 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\examples]
+28-May-2018 11:59:43.139 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\examples] has finished in [556] ms
+28-May-2018 11:59:43.139 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\host-manager]
+28-May-2018 11:59:43.186 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\host-manager] has finished in [47] ms
+28-May-2018 11:59:43.186 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\manager]
+28-May-2018 11:59:43.233 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\manager] has finished in [47] ms
+28-May-2018 11:59:43.233 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\ROOT]
+28-May-2018 11:59:43.280 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\ROOT] has finished in [47] ms
+28-May-2018 11:59:43.280 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-May-2018 11:59:43.295 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-May-2018 11:59:43.311 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1215 ms
+28-May-2018 11:59:43.327 SEVERE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:440)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:769)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:715)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+28-May-2018 11:59:43.327 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-May-2018 11:59:43.483 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-May-2018 11:59:43.655 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-May-2018 11:59:43.689 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-May-2018 11:59:43.694 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+28-May-2018 11:59:43.696 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-May-2018 11:59:43.698 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+28-May-2018 12:03:40.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.31
+28-May-2018 12:03:40.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 27 2018 20:24:25 UTC
+28-May-2018 12:03:40.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.31.0
+28-May-2018 12:03:40.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-May-2018 12:03:40.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-May-2018 12:03:40.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-May-2018 12:03:40.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\java\jre
+28-May-2018 12:03:40.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_172-b11
+28-May-2018 12:03:40.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-May-2018 12:03:40.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat
+28-May-2018 12:03:40.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat
+28-May-2018 12:03:40.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\conf\logging.properties
+28-May-2018 12:03:40.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-May-2018 12:03:40.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-May-2018 12:03:40.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-May-2018 12:03:40.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-May-2018 12:03:40.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat
+28-May-2018 12:03:40.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat
+28-May-2018 12:03:40.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\temp
+28-May-2018 12:03:40.601 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\cmder\bin;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\cmder\vendor\conemu-maximus5\ConEmu\Scripts;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\cmder\vendor\conemu-maximus5;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\cmder\vendor\conemu-maximus5\ConEmu;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\vscode\bin;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\bin;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\subversion;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\sonarqube\bin;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\Sencha;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\python3;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\nodejs;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\maven\bin;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\logs;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\java\bin;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\jasypt\bin;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\eclipse;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\devcon;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\cmder\bin;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\ant\bin;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\Sencha\Cmd\default;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\oracle\app\oracle\product\11.2.0\server\bin;;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\CapgeminiScripts\Support Tools\;C:\Program Files\Cloud Foundry;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_121\bin;D:\Devon\Devon-dist_2.2.0\software\maven\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\vapadwal\AppData\Roaming\npm;C:\Users\vapadwal\AppData\Local\Microsoft\WindowsApps;;C:\Users\vapadwal\.devcon;C:\Program Files\Microsoft VS Code\bin;D:\Devon\Microsoft VS Code\bin;C:\Users\vapadwal\AppData\Local\Gpg4win\..\GnuPG\bin;C:\Users\vapadwal\AppData\Roaming\npm;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\cmder\;.]
+28-May-2018 12:03:40.914 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-May-2018 12:03:41.226 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-May-2018 12:03:41.242 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-May-2018 12:03:41.258 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-May-2018 12:03:41.258 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1321 ms
+28-May-2018 12:03:41.305 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-May-2018 12:03:41.305 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.31
+28-May-2018 12:03:41.336 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\docs]
+28-May-2018 12:03:41.922 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\docs] has finished in [586] ms
+28-May-2018 12:03:41.922 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\examples]
+28-May-2018 12:03:42.437 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\examples] has finished in [515] ms
+28-May-2018 12:03:42.437 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\host-manager]
+28-May-2018 12:03:42.500 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\host-manager] has finished in [63] ms
+28-May-2018 12:03:42.500 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\manager]
+28-May-2018 12:03:42.609 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\manager] has finished in [109] ms
+28-May-2018 12:03:42.609 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\ROOT]
+28-May-2018 12:03:42.692 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat\webapps\ROOT] has finished in [83] ms
+28-May-2018 12:03:42.692 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-May-2018 12:03:42.708 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-May-2018 12:03:42.708 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1458 ms
+28-May-2018 12:04:46.815 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-May-2018 12:04:46.988 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-May-2018 12:04:47.144 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-May-2018 12:04:47.206 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-May-2018 12:04:47.206 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+28-May-2018 12:04:47.206 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-May-2018 12:04:47.222 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

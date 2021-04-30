@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Built-By: travis
+Implementation-Build: baa823c2ae6ed4dd406b2ef12bc5ac6201e466f9
+Build-Time: 2018-04-06T14:14:58+0000
+Version: 6.7.3
+Created-By: Apache Maven 3.5.0
+Build-Jdk: 1.8.0_161
+

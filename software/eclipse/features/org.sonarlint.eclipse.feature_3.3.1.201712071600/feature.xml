@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.sonarlint.eclipse.feature"
+      label="%feature_name"
+      version="3.3.1.201712071600"
+      provider-name="%provider_name"
+      plugin="org.sonarlint.eclipse.ui">
+
+   <description url="http://www.sonarlint.org/">
+      %description
+   </description>
+
+   <copyright url="http://www.sonarlint.org/">
+      %copyright
+   </copyright>
+
+   <license url="http://www.gnu.org/licenses/lgpl.txt">
+      %license
+   </license>
+
+   <plugin
+         id="org.sonarlint.eclipse.core"
+         download-size="15034"
+         install-size="17389"
+         version="3.3.1.201712071600"
+         unpack="false"/>
+
+   <plugin
+         id="org.sonarlint.eclipse.ui"
+         download-size="343"
+         install-size="669"
+         version="3.3.1.201712071600"
+         unpack="false"/>
+
+   <plugin
+         id="org.sonarsource.sonarlint.core.sonarlint-client-api"
+         download-size="74"
+         install-size="129"
+         version="3.0.1.1181"
+         unpack="false"/>
+
+   <plugin
+         id="org.sonarsource.sonarlint.core.sonarlint-core"
+         download-size="8308"
+         install-size="19133"
+         version="3.0.1.1181"
+         unpack="false"/>
+
+   <plugin
+         id="org.sonarlint.eclipse.cdt"
+         download-size="19"
+         install-size="33"
+         version="3.3.1.201712071600"
+         unpack="false"/>
+
+   <plugin
+         id="org.sonarlint.eclipse.jdt"
+         download-size="15"
+         install-size="23"
+         version="3.3.1.201712071600"
+         unpack="false"/>
+
+   <plugin
+         id="org.sonarlint.eclipse.m2e"
+         download-size="11"
+         install-size="14"
+         version="3.3.1.201712071600"
+         unpack="false"/>
+
+</feature>

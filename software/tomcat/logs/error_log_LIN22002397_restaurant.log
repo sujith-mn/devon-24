@@ -1,0 +1,2 @@
+[D: 2018-06-05 19:58:47,838] [P: WARN ] [C: ] [T: localhost-startStop-1] [L: org.dozer.config.GlobalSettings] - [M: Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.]
+[D: 2018-06-05 19:59:01,486] [P: WARN ] [C: ] [T: localhost-startStop-1] [L: org.springframework.boot.autoconfigure.batch.BasicBatchConfigurer] - [M: JPA does not support custom isolation levels, so locks may not be taken when launching Jobs]

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id$ -->
+<settings>
+
+  <!-- If you connect to the internet via a proxy, uncomment the following section and fill out
+    host and port values. Delete username and password entries, if your proxy does not require
+    authentication. -->
+ <!--
+  <proxies>
+    <proxy>
+      <id>localhttp</id>
+      <active>true</active>
+      <protocol>http</protocol>
+      <host>1.0.5.10</host>
+      <port>8080</port>
+      <username>capgemini</username>
+      <password>capgemini</password>
+    </proxy>
+    <proxy>
+      <id>localhttps</id>
+      <active>true</active>
+      <protocol>https</protocol>
+      <host>1.0.5.10</host>
+      <port>8080</port>
+      <username>capgemini</username>
+      <password>capgemini</password>
+    </proxy>
+  </proxies>
+ -->
+
+  <!-- The "localRepository" has to be set to ensure consistent behaviour across command-line and Eclipse.
+    To change it edit variables[-customized].bat -->
+  <localRepository>${M2_REPO}</localRepository>
+
+  <!-- When you are using the oasp4j-ide, define your credentials in the variables-customized.bat
+    using the variables DEVON_NEXUS_USER for the user name and DEVON_NEXUS_PASSWD for the password.
+    If you not yet have access to the nexus instance, just contact Marco Rose, Ángel Luis Marin Soler or Henning Claus Kiel. -->
+  <servers>
+    <server>
+      <id>nexus.central</id>
+      <username>${DEVON_NEXUS_USER}</username>
+      <password>${DEVON_NEXUS_PASSWD}</password>
+    </server>
+    <server>
+      <id>public</id>
+      <username>${DEVON_NEXUS_USER}</username>
+      <password>${DEVON_NEXUS_PASSWD}</password>
+    </server>
+    <server>
+      <id>3rd.party</id>
+      <username>${DEVON_NEXUS_USER}</username>
+      <password>${DEVON_NEXUS_PASSWD}</password>
+    </server>
+    <server>
+      <id>devon.releases</id>
+      <username>${DEVON_NEXUS_USER}</username>
+      <password>${DEVON_NEXUS_PASSWD}</password>
+    </server>
+    <server>
+      <id>devon.snapshots</id>
+      <username>${DEVON_NEXUS_USER}</username>
+      <password>${DEVON_NEXUS_PASSWD}</password>
+    </server>
+
+<!-- S2-->
+<!-- S2_server -->
+	
+  </servers>
+
+  <!--
+  <mirrors>
+    <mirror>
+      <id>nexus.central</id>
+      <mirrorOf>central</mirrorOf>
+      <name>central-mirror</name>
+      <url>http://devon-ci.cloudapp.net/nexus/content/repositories/central</url>
+    </mirror>
+  </mirrors>
+  -->
+
+  <profiles>
+    <profile>
+      <id>devon.nexus</id>
+      <activation>
+        <activeByDefault>false</activeByDefault>
+      </activation>
+      <repositories>
+        <repository>
+          <id>public</id>
+          <name>Public Repositories</name>
+          <url>http://devon-ci.cloudapp.net/nexus/content/groups/public/</url>
+          <releases>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+          </releases>
+          <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+          </snapshots>
+        </repository>
+        <repository>
+          <id>3rd.party</id>
+          <name>3rd party</name>
+          <url>http://devon-ci.cloudapp.net/nexus/content/repositories/thirdparty</url>
+          <releases>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+          </releases>
+          <snapshots>
+            <enabled>false</enabled>
+            <updatePolicy>always</updatePolicy>
+          </snapshots>
+        </repository>
+        <repository>
+          <id>devon.releases</id>
+          <name>DEVON Releases</name>
+          <url>http://devon-ci.cloudapp.net/nexus/content/repositories/releases</url>
+          <releases>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+          </releases>
+          <snapshots>
+            <enabled>false</enabled>
+            <updatePolicy>always</updatePolicy>
+          </snapshots>
+        </repository>
+        <repository>
+          <id>devon.snapshots</id>
+          <name>DEVON Snapshots</name>
+          <url>http://devon-ci.cloudapp.net/nexus/content/repositories/snapshots</url>
+          <releases>
+            <enabled>false</enabled>
+            <updatePolicy>always</updatePolicy>
+          </releases>
+          <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+          </snapshots>
+        </repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <id>public</id>
+          <name>Public Repositories</name>
+          <url>http://devon-ci.cloudapp.net/nexus/content/groups/public/</url>
+          <releases>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+          </releases>
+          <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+          </snapshots>
+        </pluginRepository>
+      </pluginRepositories>
+    </profile>
+	
+<!-- S2 -->
+<!-- S2_profile -->
+	
+  </profiles>
+  <activeProfiles>
+    <!--
+    <activeProfile>devon.nexus</activeProfile>
+    -->
+
+<!-- S2 -->
+<!-- S2_activeProfile -->
+
+  </activeProfiles>
+</settings>

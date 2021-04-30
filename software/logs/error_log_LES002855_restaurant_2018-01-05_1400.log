@@ -1,0 +1,2 @@
+[D: 2018-01-05 14:59:44,505] [P: WARN ] [C: ] [T: localhost-startStop-1] [L: org.flywaydb.core.internal.util.Locations] - [M: Discarding location 'classpath:db/migration/h2' as it is a sublocation of 'classpath:db/migration']
+[D: 2018-01-05 14:59:44,673] [P: WARN ] [C: ] [T: localhost-startStop-1] [L: org.flywaydb.core.internal.util.Locations] - [M: Discarding location 'classpath:db/migration/h2' as it is a sublocation of 'classpath:db/migration']

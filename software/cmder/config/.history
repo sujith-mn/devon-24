@@ -1,0 +1,109 @@
+cd software/nodejs
+npm uninstall @angular/cli --no-save
+npm install @angular/cli --no-save
+ng version
+npm install ionic cordova --no-save
+mvn -version
+npm install ionic cordova --no-save
+mvn -version
+ant
+ant -version
+java -version
+cd D:\Devcon_release\2.4.0\Devon-dist_2.4.0\software\tomcat
+cd bin
+startup.bat 
+python -v
+python -v
+pip install spyder
+python
+python
+cd software
+cd nodejs\
+npm install yarn --no-save
+npm i npm
+yarn version
+npm version
+python -version
+python
+mvn -v
+python
+mvn -v
+mvn -version
+cd workspaces\examples\oasp4j
+mvn install
+devcon -g
+python
+cd software
+cd nodejs\
+npm install yarn --no-save
+npm i npm
+npm version
+python -version
+python
+mvn -v
+python
+mvn -v
+cd workspaces\examples\oasp4j
+devcon -g
+cd D:\Devcon_release\2.4.0\Devon-dist_2.4.0\workspaces\examples\oasp4j
+cd oasp4j-sample-core
+cd samples
+cd core
+mvn -version
+mvn -verson
+cd examples\oasp4j
+node -v
+ng --version
+yarn version
+cd ..
+ls
+cd demo11Mayh2\
+mvn sonar:sonar \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.login=1b7a53ea978382c8afdc29f8d38435e92a4d5766
+cd..
+cd oasp4j
+mvn sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login=1b7a53ea978382c8afdc29f8d38435e92a4d5766
+cd D:\Devcon_release\2.4.0\Devon-dist_2.4.0\workspaces\examples\my-thai-star\java\mtsj
+cd D:\Devcon_release\2.4.0\Devon-dist_2.4.0\workspaces\examples\devon
+mvn install
+yarn version
+cd ..
+cd demo11Mayh2\
+mvn sonar:sonar \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.login=1b7a53ea978382c8afdc29f8d38435e92a4d5766
+cd oasp4j
+mvn sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login=1b7a53ea978382c8afdc29f8d38435e92a4d5766
+cd D:\Devcon_release\2.4.0\Devon-dist_2.4.0\workspaces\examples\my-thai-star\java\mtsj
+cd D:\Devcon_release\2.4.0\Devon-dist_2.4.0\workspaces\examples\devon
+cd D:\Devcon_release\2.4.0\Devon-dist_2.4.0\workspaces\examples\oasp4j\samples\server\target
+cd..
+mvn install
+ls
+cd server
+cd target
+
+java -jar oasp4j-sample-server-bootified.war
+cd D:\Devcon_release\2.4.0\Devon-dist_2.4.0\workspaces\examples\oasp4j\samples\server\target
+java -jar oasp4j-sample-server-bootified.war
+cd D:\Devcon_release\2.4.0\Devon-dist_2.4.0\workspaces\main\com.company\server\target
+java -jar com.company-server-bootified.war
+java -jar com.company-server-bootified.war
+devcon -g
+java -jar com.company-server-bootified.war
+devcon -g
+cd D:\Devcon_release\2.4.0\Devon-dist_2.4.0\workspaces\main\testcobigen
+cd server
+cd target\
+ls
+java -jar testcobigen-server-bootified.war
+java -jar com.company-server-bootified.war
+devcon -g
+devcon -g
+devcon -g
+cd Devon-dist_2.4.0\workspaces\examples\devon
+cd D:\Devcon_release\2.4.0\Devon-dist_2.4.0\workspaces\examples\devon
+mvn clean
+cd D:\Devcon_release\2.4.0\Devon-dist_2.4.0\workspaces\examples\oasp4j\modules\basic
+mvn install

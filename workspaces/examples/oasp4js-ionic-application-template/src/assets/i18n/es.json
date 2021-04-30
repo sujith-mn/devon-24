@@ -1,0 +1,18 @@
+{
+    "buttons": {
+      "login": "Conectarse",
+      "logout": "Desconectarse",
+      "menu": "Menu"
+    },
+    "alert": {
+      "title": "Error",
+      "subtitle": "Usuario o contraseña erroneo",
+      "dismiss": "cerrar"
+    },
+    "login": {
+      "user": "Usuario",
+      "username": "Username",
+      "password": "Contraseña",
+      "errorMsg": "Usuario o contraseña erroneos"
+    }
+  }

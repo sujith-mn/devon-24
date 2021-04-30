@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.devonfw</groupId>
+    <artifactId>devonfw-sample</artifactId>
+    <version>${devonfw.version}</version>
+  </parent>
+  <artifactId>devonfw-sample-server</artifactId>
+  <packaging>war</packaging>
+  <name>${project.artifactId}</name>
+  <description>Server for the devonfw-sample application - a simple example using the Open Application Standard Platform for Java (OASP4J).</description>
+
+  <properties>
+    <java.version>1.7</java.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>devonfw-sample-core</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+  </dependencies>
+
+  <profiles>
+    <profile>
+      <id>jsclient</id>
+      <activation>
+        <!--<activeByDefault>true</activeByDefault> -->
+        <activeByDefault>false</activeByDefault>
+      </activation>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>npm-install</id>
+                <phase>generate-sources</phase>
+                <goals>
+                  <goal>exec</goal>
+                </goals>
+                <configuration>
+                  <executable>npm</executable>
+                  <arguments>
+                    <argument>install</argument>
+                  </arguments>
+                  <workingDirectory>${js.client.dir}</workingDirectory>
+                </configuration>
+              </execution>
+              <execution>
+                <id>tsd-install</id>
+                <phase>generate-sources</phase>
+                <goals>
+                  <goal>exec</goal>
+                </goals>
+                <configuration>
+                  <executable>tsd</executable>
+                  <arguments>
+                    <argument>install</argument>
+                  </arguments>
+                  <workingDirectory>${js.client.dir}</workingDirectory>
+                </configuration>
+              </execution>
+              <execution>
+                <id>gulp-clean</id>
+                <phase>generate-sources</phase>
+                <goals>
+                  <goal>exec</goal>
+                </goals>
+                <configuration>
+                  <executable>gulp</executable>
+                  <arguments>
+                    <argument>clean</argument>
+                  </arguments>
+                  <workingDirectory>${js.client.dir}</workingDirectory>
+                </configuration>
+              </execution>
+              <execution>
+                <id>gulp-build</id>
+                <phase>generate-sources</phase>
+                <goals>
+                  <goal>exec</goal>
+                </goals>
+                <configuration>
+                  <executable>gulp</executable>
+                  <arguments>
+                    <argument>build:dist</argument>
+                  </arguments>
+                  <workingDirectory>${js.client.dir}</workingDirectory>
+                </configuration>
+              </execution>
+              <execution>
+                <id>gulp-test</id>
+                <phase>test</phase>
+                <goals>
+                  <goal>exec</goal>
+                </goals>
+                <configuration>
+                  <executable>gulp</executable>
+                  <arguments>
+                    <argument>test</argument>
+                  </arguments>
+                  <workingDirectory>${js.client.dir}</workingDirectory>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <profile>
+      <id>docker</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>io.fabric8</groupId>
+            <artifactId>docker-maven-plugin</artifactId>
+            <version>0.14.1</version>
+            <configuration>
+              <mainClass>io.oasp.gastronomy.restaurant.SpringBootApp</mainClass>
+              <images>
+                <image>
+                  <alias>service</alias>
+                  <name>fabric8/${project.artifactId}-fabric8:${project.version}</name>
+                  <!-- ....................................... -->
+                  <!-- Build configuration for creating images -->
+                  <!-- ....................................... -->
+                  <build>
+                    <from>java:openjdk-7-jre</from>
+                    <assembly>
+                      <mode>dir</mode>
+                      <basedir>/maven</basedir>
+                      <descriptor>assembly.xml</descriptor>
+                    </assembly>
+                    <!-- Expose ports -->
+                    <ports>
+                      <port>8080</port>
+                    </ports>
+                    <!-- Default command for the build image -->
+                    <cmd>java -Djava.security.egd=file:/dev/./urandom -jar /maven/devon-sample-server.war</cmd>
+                  </build>
+                  <!-- ............................................................... -->
+                  <!-- Runtime configuration for starting/stopping/linking containers -->
+                  <!-- ............................................................... -->
+                  <run>
+                    <!-- Assign dynamically mapped ports to maven variables (which can be reused in integration tests) -->
+                    <ports>
+                      <port>tomcat.port:8080</port>
+                    </ports>
+                    <wait>
+                      <http>
+                        <!-- Check for this URL to return a 200 return code .... -->
+                        <url>http://${docker.host.address}:${tomcat.port}/login</url>
+                        <method>GET</method>
+                      </http>
+                      <!-- ... but at max 60 seconds, this is usually enough to start the application -->
+                      <time>60000</time>
+                    </wait>
+                    <log>
+                      <prefix>TC</prefix>
+                      <color>cyan</color>
+                    </log>
+                  </run>
+                </image>
+              </images>
+            </configuration>
+            <executions>
+              <execution>
+                <id>start</id>
+                <phase>pre-integration-test</phase>
+                <goals>
+                  <goal>build</goal>
+                  <goal>start</goal>
+                </goals>
+              </execution>
+              <execution>
+                <id>stop</id>
+                <phase>post-integration-test</phase>
+                <goals>
+                  <goal>stop</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
+  <build>
+    <resources>
+      <resource>
+        <directory>${project.basedir}/src/main/resources</directory>
+      </resource>
+      <resource>
+        <directory>${js.client.dir}/dist</directory>
+        <targetPath>static</targetPath>
+      </resource>
+    </resources>
+    <plugins>
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <goals>
+              <goal>repackage</goal>
+            </goals>
+            <configuration>
+              <mainClass>com.devonfw.sample.SpringBootApp</mainClass>
+              <finalName>${project.artifactId}</finalName>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

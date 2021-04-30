@@ -1,0 +1,8 @@
+Jun 12, 2018 11:44:36 AM io.oasp.ide.eclipse.configurator.core.Configurator logCall
+INFO: io.oasp.ide.eclipse.configurator.core.Configurator -u
+Jun 12, 2018 11:44:36 AM io.oasp.ide.eclipse.configurator.core.Configurator main
+INFO: Updating workspace
+Jun 12, 2018 11:44:36 AM io.oasp.ide.eclipse.configurator.core.Configurator collectWorkspaceFiles
+INFO: Collected 78 configuration files.
+Jun 12, 2018 11:44:38 AM io.oasp.ide.eclipse.configurator.core.Configurator main
+INFO: Completed

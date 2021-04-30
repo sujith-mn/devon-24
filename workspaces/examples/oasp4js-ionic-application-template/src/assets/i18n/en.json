@@ -1,0 +1,18 @@
+{
+    "buttons": {
+      "login": "Send",
+      "logout": "logout",
+      "menu": "Menu"
+    },
+    "alert":{
+      "title":"Error",
+      "subtitle":"User and/or password",
+      "dismiss":"Close"
+    },
+    "login": {
+      "user": "Login",
+      "username": "Username",
+      "password": "Password",
+      "errorMsg": "Wrong username or password"
+    }
+  }

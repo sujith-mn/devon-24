@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [05/Jun/2018:17:54:08 +0530] "GET /oasp4j-sample-server/ HTTP/1.1" 200 343
+0:0:0:0:0:0:0:1 - - [05/Jun/2018:17:54:13 +0530] "POST /oasp4j-sample-server/logout HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [05/Jun/2018:17:54:13 +0530] "GET /oasp4j-sample-server/login.html HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [05/Jun/2018:17:54:13 +0530] "GET /oasp4j-sample-server/login HTTP/1.1" 200 574
+0:0:0:0:0:0:0:1 - - [05/Jun/2018:17:54:23 +0530] "POST /oasp4j-sample-server/j_spring_security_login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [05/Jun/2018:17:54:23 +0530] "GET /oasp4j-sample-server/login.html HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [05/Jun/2018:17:54:23 +0530] "GET /oasp4j-sample-server/ HTTP/1.1" 200 343
+0:0:0:0:0:0:0:1 - - [05/Jun/2018:20:00:29 +0530] "GET /oasp4j-sample-server/login HTTP/1.1" 200 574
+0:0:0:0:0:0:0:1 - - [05/Jun/2018:20:00:29 +0530] "GET /oasp4j-sample-server/login HTTP/1.1" 200 574
+0:0:0:0:0:0:0:1 - - [05/Jun/2018:20:00:47 +0530] "POST /oasp4j-sample-server/j_spring_security_login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [05/Jun/2018:20:00:47 +0530] "GET /oasp4j-sample-server/ HTTP/1.1" 200 343

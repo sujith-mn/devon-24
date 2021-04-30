@@ -1,0 +1,26 @@
+version: '2'
+
+services:
+  reverse-proxy:
+    build: 'reverse-proxy/'
+    restart: always
+    container_name: 'mts_reverse_proxy'
+    networks:
+      - my-thai-star
+    ports:
+      - '8080:80'
+  angular:
+    build: 'angular/'
+    restart: always
+    container_name: 'mts_angular'
+    networks:
+      - my-thai-star
+  java:
+    build: 'java/'
+    restart: always
+    container_name: 'mts_java'
+    networks:
+      - my-thai-star
+networks:
+  my-thai-star:
+    driver: bridge
